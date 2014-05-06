@@ -4,12 +4,12 @@ import pika
 import json
 import time
 
-consumer_key = "xNicVl432winbMpGl6ZDTDFMY"
+consumer_key = ""
 
-consumer_secret = "6Osxua1pjuYglKZvhgBBEt4EFuX3HQg2Rgmp0ufdibrc4hIBiW"
+consumer_secret = ""
 
-access_token = "26330461-GvLUUizCyt0qstrA6ujeaWb4VRTsS9kTMfmNnR0cn"
-access_token_secret = "514DXnKInjXBVT5iDv3t1uLkWQroZhgjjRdcomSWeYyhX"
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
