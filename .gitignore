@@ -1,0 +1,7 @@
+*.pyc
+bin
+build
+lib
+include
+.Python
+.coverage
